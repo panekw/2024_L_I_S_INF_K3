@@ -2,6 +2,13 @@
 
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
+$ python3 -m venv .venv
+$ python -m venv .venv
+
+$ source .venv/bin/activate
+$ source .venv/Scripts/activate
+$ pip install -r -requirments.txt
+$ pip install -r test_requirements.txt
 
 - W projekcie wykorzystamy virtual environment, dla utworzenia hermetycznego środowisko dla aplikacji:
 
