@@ -8,7 +8,7 @@ run:
 .PHONY: test
 test:
 	PYTHONPATH=. py.test --verbose -s
-docker_build: 
+docker_build:
 	docker build -t hello-world-printer .
 USERNAME=RakosIX
 TAG=$(USERNAME)/hello-world-printer-k3
